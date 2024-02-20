@@ -1,8 +1,8 @@
 # Basic-Python-Finger-Counting
-##Overview
+## Overview
 This Python application utilizes computer vision techniques to count the number of fingers shown to the camera. It incorporates motion detection to enhance the accuracy of finger counting. The app requires a webcam or camera connected to the system.
 
-##Dependencies
+## Dependencies
 Python 3.x
 OpenCV
 NumPy
@@ -12,7 +12,7 @@ Install the required dependencies using pip:
 ```bash
 pip install opencv-python numpy
 ```
-##Usage
+## Usage
 Run the finger_count.py script.
 ```bash
 python finger_count.py
@@ -25,8 +25,8 @@ Motion Detection: The application utilizes motion detection to identify when fin
 
 Finger Counting Algorithm: Once motion is detected, the program captures the hand region. It then applies image processing methods to identify and count the number of fingers based on certain predefined criteria.
 
-###User Interface: The application provides a simple graphical interface to display the live feed from the camera along with the count of fingers detected.
+### User Interface: The application provides a simple graphical interface to display the live feed from the camera along with the count of fingers detected.
 
-##Notes
+## Notes
 For best results, ensure adequate lighting and minimal background clutter.
 The accuracy of finger counting may vary depending on factors such as hand position, hand orientation, and lighting conditions.
